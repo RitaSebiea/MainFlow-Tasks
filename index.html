@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Dropdown Navigation</title>
+    <style>
+        /* Basic CSS to style the background image and other elements */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('background.jpg'); /* Replace with your image file */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Style for paragraphs */
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>Welcome to My Website </h1>
+    <p>Select a page to navigate:</p>
+
+    <div class="dropdown">
+        <button class="dropbtn">Navigate</button>
+        <div class="dropdown-content">
+            <a href="page1.html">Page 1</a>
+            <a href="page2.html">Page 2</a>
+            <a href="page3.html">Page 3</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <p>Welcome to our website! We offer a variety of content to explore, from different sections on technology, art, and culture. Our team is dedicated to bringing you the latest insights and articles. We hope you enjoy your time here and find the resources you're looking for.</p>
+
+        <p>Feel free to navigate through the different sections of our website using the dropdown menu above. Each page offers something unique, tailored to your interests and needs. Whether you're here to read about the latest trends or to learn something new, we’ve got you covered!</p>
+
+        <p>If you have any questions or need assistance, don't hesitate to reach out through our contact page. We’re here to help and make your experience as smooth and enjoyable as possible. Thank you for
+</center>
